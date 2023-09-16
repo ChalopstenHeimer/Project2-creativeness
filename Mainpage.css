@@ -1,0 +1,800 @@
+body { 
+    color: rgb(10,255,255);
+}
+/* SCREEN 250px+ */
+@media (min-width:250px) {
+    body {
+        background: url(osrs-zuk-img.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .leftbanner img{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        width: 35px;
+        height: 350px;
+        display: block;
+    }
+    
+    .rightbanner img{
+        position: absolute;
+        right: 0px;
+        top: 100px;
+        width: 35px;
+        height: 350px;
+        display: block;
+    }
+
+    form {
+        background-color: rgba(0,10,255,0.4);
+        width: 75%;
+        position: relative;
+        margin: auto;
+        border-style: none;
+        top: -19px;
+        font-size: 13px;
+        font-family: fantasy;
+    }
+    
+    .field1 {
+        margin: 5px;
+        border-style: none;
+    }
+    
+    .field2 {
+        height: 150px;
+        border-style: none;
+    }
+    
+    .field3 {
+        height: 150px;
+        border-style: none;
+    }
+    
+    header {
+        position: relative;
+        width: 106%;
+        height: 100px;
+        top: -8px;
+        left:-7.7px;
+        font-size: 25px;
+        color: rgb(10,255,255);
+        background-color: rgb(0,0,255);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        font-family: 'Creepster', cursive;
+    }
+    
+    .home-button {
+        width: 80px;
+        height: 35px;
+        background-color: red;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    
+    .osrs-button {
+        width: 80px;
+        height: 35px;
+        background-color: red;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    
+    .runescape3-button {
+        width: 80px;
+        height: 35px;
+        background-color: red;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 15px;
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    h2 {
+        margin-left: 10%;
+    }
+
+    h3 {
+        margin-left: 15%;
+    }
+
+    ul {
+        margin-left: 20%;
+    } 
+}
+
+/* SCREEN 390px+ */
+
+@media (min-width:390px) { 
+    body {
+        background: url(osrs-zuk-img.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .leftbanner img{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        width: 50px;
+        height: 350px;
+        display: block;
+    }
+    
+    .rightbanner img{
+        position: absolute;
+        right: 0px;
+        top: 100px;
+        width: 50px;
+        height: 350px;
+        display: block;
+    }
+
+    form {
+        background-color: rgba(0,10,255,0.4);
+        width: 75%;
+        position: relative;
+        margin: auto;
+        border-style: none;
+        top: -19px;
+        font-size: 13px;
+        font-family: fantasy;
+    }
+    
+    .field1 {
+        margin: 5px;
+        border-style: none;
+    }
+    
+    .field2 {
+        height: 150px;
+        border-style: none;
+    }
+    
+    .field3 {
+        height: 150px;
+        border-style: none;
+    }
+    
+    header {
+        position: relative;
+        width: 104%;
+        height: 100px;
+        top: -8px;
+        left:-7.6px;
+        font-size: 25px;
+        color: rgb(10,255,255);
+        background-color: rgb(0,0,255);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        font-family: 'Creepster', cursive;
+    }
+    
+    .home-button {
+        width: 120px;
+        height: 25px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    
+    .osrs-button {
+        width: 120px;
+        height: 25px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    
+    .runescape3-button {
+        width: 120px;
+        height: 25px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    h2 {
+        margin-left: 10%;
+    }
+
+    h3 {
+        margin-left: 15%;
+    }
+
+    ul {
+        margin-left: 20%;
+    }
+
+ }
+
+/* SCREEN 480px+ */
+
+@media (min-width:480px) { 
+    body {
+        background: url(osrs-zuk-img.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .leftbanner img{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        width: 11.3%;
+        height: 55%;
+        display: block;
+    }
+    
+    .rightbanner img{
+        position: absolute;
+        right: 0px;
+        top: 100px;
+        width: 11.3%;
+        height: 55%;
+        display: block;
+    }
+
+    form {
+        background-color: rgba(0,10,255,0.4);
+        width: 80%;
+        position: relative;
+        margin: auto;
+        border-style: none;
+        top: -25px;
+        font-size: 11px;
+        font-family: fantasy;
+    }
+    
+    .field1 {
+        margin: 50px;
+        border-style: none;
+    }
+    
+    .field2 {
+        height: 150px;
+        border-style: none;
+    }
+    
+    .field3 {
+        height: 150px;
+        border-style: none;
+    }
+    
+    header {
+        position: relative;
+        width: 103.5%;
+        height: 100px;
+        top: -8px;
+        left:-7.6px;
+        font-size: 25px;
+        color: rgb(10,255,255);
+        background-color: rgb(0,0,255);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        font-family: 'Creepster', cursive;
+    }
+    
+    .home-button {
+        width: 150px;
+        height: 50px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .osrs-button {
+        width: 150px;
+        height: 50px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .runescape3-button {
+        width: 150px;
+        height: 50px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    h2 {
+        margin-left: 10%;
+    }
+
+    h3 {
+        margin-left: 15%;
+    }
+
+    ul {
+        margin-left: 20%;
+    }
+ }
+
+/* SCREEN 600px+ */
+
+@media (min-width:600px) { 
+    body {
+        background: url(osrs-zuk-img.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .leftbanner img{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        width: 11%;
+        height: 65%;
+        display: block;
+    }
+    
+    .rightbanner img{
+        position: absolute;
+        right: 0px;
+        top: 100px;
+        width: 11%;
+        height: 65%;
+        display: block;
+    }
+
+    form {
+        background-color: rgba(0,10,255,0.4);
+        width: 80%;
+        position: relative;
+        margin: auto;
+        border-style: none;
+        top: -25px;
+        font-size: 13px;
+        font-family: fantasy;
+    }
+    
+    .field1 {
+        margin: 50px;
+        border-style: none;
+    }
+    
+    .field2 {
+        height: 150px;
+        border-style: none;
+    }
+    
+    .field3 {
+        height: 150px;
+        border-style: none;
+    }
+    
+    header {
+        position: relative;
+        width: 102.6%;
+        height: 100px;
+        top: -8px;
+        left:-7.6px;
+        font-size: 25px;
+        color: rgb(10,255,255);
+        background-color: rgb(0,0,255);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        font-family: 'Creepster', cursive;
+    }
+    
+    .home-button {
+        width: 150px;
+        height: 50px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .osrs-button {
+        width: 150px;
+        height: 50px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .runescape3-button {
+        width: 150px;
+        height: 50px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    h2 {
+        margin-left: 10%;
+    }
+
+    h3 {
+        margin-left: 15%;
+    }
+
+    ul {
+        margin-left: 20%;
+    }
+ }
+
+/* SCREEN 801px+ */
+
+@media (min-width:801px) { 
+    body {
+        background: url(osrs-zuk-img.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .leftbanner img{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        width: 10.8%;
+        height: 75%;
+        display: block;
+    }
+    
+    .rightbanner img{
+        position: absolute;
+        right: 0px;
+        top: 100px;
+        width: 10.7%;
+        height: 75%;
+        display: block;
+    }
+
+    form {
+        background-color: rgba(0,10,255,0.4);
+        width: 80%;
+        position: relative;
+        margin: auto;
+        border-style: none;
+        top: -42px;
+        font-size: 18px;
+        font-family: fantasy;
+    }
+    
+    .field1 {
+        margin: 50px;
+        border-style: none;
+    }
+    
+    .field2 {
+        height: 150px;
+        border-style: none;
+    }
+    
+    .field3 {
+        height: 150px;
+        border-style: none;
+    }
+    
+    header {
+        position: relative;
+        width: 102%;
+        height: 100px;
+        top: -8px;
+        left:-7.6px;
+        font-size: 25px;
+        color: rgb(10,255,255);
+        background-color: rgb(0,0,255);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        font-family: 'Creepster', cursive;
+    }
+    
+    .home-button {
+        width: 200px;
+        height: 50px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .osrs-button {
+        width: 200px;
+        height: 50px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .runescape3-button {
+        width: 200px;
+        height: 50px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    h2 {
+        margin-left: 10%;
+    }
+
+    h3 {
+        margin-left: 15%;
+    }
+
+    ul {
+        margin-left: 20%;
+    }
+ }
+
+/* SCREEN 1025px+ */
+
+@media (min-width:1025px) { 
+    body {
+        background: url(osrs-zuk-img.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .leftbanner img{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        width: 125px;
+        height: 850px;
+        display: block;
+    }
+    
+    .rightbanner img{
+        position: absolute;
+        right: 0px;
+        top: 100px;
+        width: 125px;
+        height: 850px;
+        display: block;
+    }
+
+    form {
+        background-color: rgba(0,10,255,0.4);
+        width: 77%;
+        position: relative;
+        margin: auto;
+        border-style: none;
+        top: -42px;
+        font-size: 25px;
+        font-family: fantasy;
+    }
+    
+    .field1 {
+        margin: 50px;
+        border-style: none;
+    }
+    
+    .field2 {
+        height: 150px;
+        border-style: none;
+    }
+    
+    .field3 {
+        height: 150px;
+        border-style: none;
+    }
+    
+    header {
+        position: relative;
+        width: 101.4%;
+        height: 100px;
+        top: -8px;
+        left:-7.6px;
+        font-size: 25px;
+        color: rgb(10,255,255);
+        background-color: rgb(0,0,255);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        font-family: 'Creepster', cursive;
+    }
+    
+    .home-button {
+        width: 200px;
+        height: 50px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .osrs-button {
+        width: 200px;
+        height: 50px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .runescape3-button {
+        width: 200px;
+        height: 50px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    h2 {
+        margin-left: 10%;
+    }
+
+    h3 {
+        margin-left: 15%;
+    }
+
+    ul {
+        margin-left: 20%;
+    }
+ }
+
+/* SCREEN 1281px+ */
+
+@media (min-width:1281px) { 
+    body {
+        background: url(osrs-zuk-img.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .leftbanner img{
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        width: 10.4%;
+        height: 1000px;
+        display: block;
+    }
+    
+    .rightbanner img{
+        position: absolute;
+        right: 0px;
+        top: 100px;
+        width: 10.4%;
+        height: 1000px;
+        display: block;
+    }
+
+    form {
+        background-color: rgba(0,10,255,0.4);
+        width: 80%;
+        position: relative;
+        margin: auto;
+        border-style: none;
+        top: -43px;
+        font-size: 25px;
+        font-family: fantasy;
+    }
+    
+    .field1 {
+        margin: 50px;
+        border-style: none;
+    }
+    
+    .field2 {
+        height: 150px;
+        border-style: none;
+    }
+    
+    .field3 {
+        height: 150px;
+        border-style: none;
+    }
+    
+    header {
+        position: relative;
+        width: 101.5%;
+        height: 100px;
+        top: -8px;
+        left:-7.6px;
+        font-size: 25px;
+        color: rgb(10,255,255);
+        background-color: rgb(0,0,255);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        font-family: 'Creepster', cursive;
+    }
+    
+    .home-button {
+        width: 200px;
+        height: 50px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .osrs-button {
+        width: 200px;
+        height: 50px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .runescape3-button {
+        width: 200px;
+        height: 50px;
+        background-color: red;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    h2 {
+        margin-left: 10%;
+    }
+
+    h3 {
+        margin-left: 15%;
+    }
+
+    ul {
+        margin-left: 20%;
+    }
+
+ }
